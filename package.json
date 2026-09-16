@@ -1,0 +1,19 @@
+{
+  "name": "le-cabinet-backend",
+  "version": "1.0.0",
+  "description": "Backend pour Le Cabinet - relais vers l'API Anthropic",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express-rate-limit": "^7.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
